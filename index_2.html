@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+
+    <script>
+        for(let i = 0; i < 10; i++) {
+            document.write("This is: " + (i) + " step of for loop <br/>");
+            console.log("This is: " + (i) + " step of for loop");
+        }
+
+
+
+        let sum = 0;
+        let cnt = 0;
+        while(++cnt < 5) {
+            sum += cnt;
+        }
+
+        document.write("sum is: " + sum + "<br/>");
+
+        while(true) {
+            sum += cnt;
+            if (sum > 50) {
+                break;
+            }
+        }
+        document.write("sum is " + sum + "<br/>");  
+    </script>
+
+  </head>
+  <body>
+	<script src="index.js"></script>        
+  </body>
+</html>
