@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML 5 Boilerplate</title>
+
+    <script>        
+
+        let ar1 =["svi", "su", "istog", "tipa"];
+        ar1[0] = 100; 
+        console.log(ar1);
+        ar1[5] = 300;
+        for(let i = 0; i < ar1.length; i++) {
+            document.write("Elements is: " + ar1[i] + "type: " + typeof(ar1[i]) + "<br/>");
+        }
+
+        //ar1 = new Array(23, trie, 0, false, true);
+        //for(let i = 0; i < ar1.length; i++) {
+        //    document.write("Elements is: " + ar1[i] + "type: " + typeof(ar1[i]) + "<br/>");
+        //}
+        document.write("<hr<br/>");
+        ar1.forEach(function(element, idx, ar1) {
+            document.write(element + " ind pos: + " + idx + "length of an arr: " + ar1.length);
+            document.write("<br/>");
+        });
+        
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
